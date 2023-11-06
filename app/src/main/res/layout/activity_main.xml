@@ -6,4 +6,113 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <View
+        android:id="@+id/topBlock"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@color/purple_700"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.282" />
+
+    <View
+        android:id="@+id/secondRowBlock1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@color/teal_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/topBlock"
+        app:layout_constraintHorizontal_bias="0.634"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.366" />
+
+    <View
+        android:id="@+id/secondRowBlock2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@color/teal_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.366"
+        app:layout_constraintStart_toEndOf="@+id/secondRowBlock1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.366" />
+
+    <View
+        android:id="@+id/midBlock"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45" />
+
+    <View
+        android:id="@+id/thirdRowBlock1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@color/teal_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.313"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.534" />
+
+    <View
+        android:id="@+id/thirdRowBlock2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@color/teal_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.681"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.534" />
+
+
+    <View
+        android:id="@+id/lastRowBlock1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@color/purple_700"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.617" />
+
+    <View
+        android:id="@+id/lastRowBlock2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@color/purple_700"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.616" />
+
+    <View
+        android:id="@+id/lastRowBlock3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@color/purple_700"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.865"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.615" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
